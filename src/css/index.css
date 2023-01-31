@@ -66,3 +66,7 @@ input,
 button {
   padding: 0.5rem;
 }
+
+#btn {
+  margin-left: 65%;
+}
