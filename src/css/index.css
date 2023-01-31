@@ -37,7 +37,7 @@ ul {
   width: 350px;
 }
 
- li {
+li {
   list-style-type: none;
   margin-bottom: 1.3rem;
 }
@@ -55,7 +55,6 @@ form {
   justify-content: center;
   align-items: center;
   gap: 2rem;
-  
 }
 
 .refreshbtn {
