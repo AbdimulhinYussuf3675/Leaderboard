@@ -42,7 +42,6 @@ ul {
   font-size: 1.2rem;
 }
 
-
 li {
   list-style-type: none;
   margin-bottom: 1.3rem;
@@ -72,7 +71,6 @@ form {
   font-size: 1.5rem;
   padding: 0.5rem 1rem;
   border: 1px solid #000;
-  
 }
 
 .score-list:nth-child(even) {
