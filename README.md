@@ -76,7 +76,7 @@ The leaderboard website displays scores submitted by different players. It also 
 
 > Add a link to your deployed project.
 
-- [Live Demo Link](https://abdimulhinyussuf3675.github.io/JS_To_Do_List/dist/)
+- [Live Demo Link](https://abdimulhinyussuf3675.github.io/Leaderboard/dist/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
