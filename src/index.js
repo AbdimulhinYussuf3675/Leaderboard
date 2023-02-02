@@ -6,7 +6,7 @@ const scoreForm = document.querySelector('#score');
 const submitBtn = document.querySelector('.btn');
 const gameId = 'eU8fUe323J6Z3a6jqAvT';
 
-const getScore = async () => {
+const fetchScore = async () => {
   const response = await fetch(
     `https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/${gameId}/scores/`,
     {
@@ -26,7 +26,7 @@ const getScore = async () => {
 };
 submitBtn.addEventListener('click', (e) => {
   e.preventDefault();
-  getScore();
+  fetchScore();
   const error = document.querySelector('.error');
   if (!nameForm && !scoreForm) {
     error.innerHTML = 'Please fill all input fields';
