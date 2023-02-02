@@ -37,6 +37,11 @@ ul {
   width: 350px;
 }
 
+.error {
+  color: rgb(229, 19, 134);
+  font-size: 1.2rem;
+}
+
 li {
   list-style-type: none;
   margin-bottom: 1.3rem;
@@ -62,11 +67,23 @@ form {
   justify-content: space-between;
 }
 
+.score-list {
+  font-size: 1.5rem;
+  padding: 0.5rem 1rem;
+  border: 1px solid #000;
+}
+
+.score-list:nth-child(even) {
+  background-color: rgb(222, 220, 220);
+  justify-content: space-between;
+  gap: 20px;
+}
+
 input,
 button {
   padding: 0.5rem;
 }
 
-#btn {
+.btn {
   margin-left: 65%;
 }
